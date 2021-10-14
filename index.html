@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="calculator">
+        <h1>Calculator</h1>
+        <div class="equation">
+            <input id=equation>
+            <button class="backspace" onclick="backspace()">← Backspace</button>
+        </div>
+        <div>
+            <button onclick="input(1)">1</button>
+            <button onclick="input(2)">2</button>
+            <button onclick="input(3)">3</button>
+            <button onclick="input('-')">-</button>
+        </div>
+        <div>
+            <button onclick="input(4)">4</button>
+            <button onclick="input(5)">5</button>
+            <button onclick="input(6)">6</button>
+            <button onclick="input('+')">+</button>
+        </div>
+        <div>
+            <button onclick="input(7)">7</button>
+            <button onclick="input(8)">8</button>
+            <button onclick="input(9)">9</button>
+            <button onclick="solve()">=</button>
+        </div>  
+        <div>
+            <button onclick="input('/')">/</button>
+            <button onclick="input('0') ">0</button>
+            <button onclick="input('(')">(</button>
+            <button onclick="input(')')">)</button>
+        </div>
+        <div>
+            <button onclick="c()">C</button>
+        </div>
+    </div>
+</body>
+</html>
